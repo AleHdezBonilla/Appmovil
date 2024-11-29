@@ -1,0 +1,57 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #1a1826, #413b5e);
+    padding: 20px 20px 200px;
+    align-items: center;
+  }
+  .titleContainer {
+    padding-top: 80px;
+  }
+  
+  .home p {
+    font-size: 2.5em;
+    color: #f1f1f1;
+  }
+  
+  .home a{
+    font-size: 1em;
+  }
+  .callToAction {
+    background-color: #508094;
+    padding: 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+  }
+  
+  .callToAction:hover {
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .ctaContainer {
+    padding-top: 40px;
+  }
+
+  .catalogo {margin-left:300px;}
+  .producto {
+    width:33.333%;
+    padding:15px;
+    border:2px solid #ccc;
+    border-radius:5px;
+    float: left;
+    height: 200px;
+  
+  }
+
+  .input {
+    border: 1px solid #413b5e;
+    width: 90%;
+    height: 25px;
+    background: #f1f1f1;
+    color: #0e0d0d;
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 1em;
+  }
+  
